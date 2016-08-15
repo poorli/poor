@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>大义三国</title>
+	<meta name="keywords" content="大义三国,手机游戏,HTML5游戏,三国,手游" />
+	<meta name="description" content="大义三国是一款手游" />
+	<meta content="always" name="referrer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport" />
+	<style type="text/css">
+		html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0}
+		a{text-decoration:none;color:white}a:active{color:#3990e6;outline:0}
+		.image {
+			width: 100%;
+		}
+		.bg {
+			width: 100%;
+			text-align: center;
+			background: url(images/start-bg.jpg) no-repeat;
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+		}
+		.main {
+			font-size: 15px;
+			/*font-size: 3.125vh;*/
+			color: white;
+			font-weight: bolder;
+		}
+		.logo {
+			display: inline-block;
+			/*width: 49px;*/
+			/*width: 10vh;*/
+			width: 15.312vw;
+			/*margin: 10px 0 50px 0;*/
+			margin: 2.083vh 0 8vh 0;
+			text-align: center;
+		}
+		.introduce {
+			/*margin-bottom: 16px;*/
+			margin-bottom: 3.4vh;
+		}
+		.pic_introduce {
+			display: inline-block;
+			/*width: 93px;*/
+			/*width: 19.375vh;*/
+			width: 29.062vw;
+		}
+		.pic_introduce:first-child {
+			/*padding-right: 14px;*/
+			padding-right: 3vh;
+		}
+		.pic_introduce:last-child {
+			/*padding-left: 14px;*/
+			padding-left: 3vh;
+		}
+		.gopng_s-btn1 {
+			background: url(images/s-btn1.png) no-repeat;
+		}
+		.gopng_s-btn2 {
+			background: url(images/s-btn2.png) no-repeat;
+		}
+		.gopng_s-btn1,
+		.gopng_s-btn2 {
+			display: inline-block;
+			/*line-height: 39px;*/
+			line-height: 12.187vw;
+			/*width: 124px;*/
+			width: 38.75vw;
+			overflow: hidden;
+			/*background: url(images/sprite.png) -98px -302px no-repeat;*/
+			/*background-size: 124px 39px ;*/
+			background-size: 38.75vw 12.187vw;
+			margin-top: 0.5vh;
+		}
+		.btn-left {
+			margin-right: 1.2vw;
+		}
+		.btn-right {
+			margin-left: 1.2vw;
+		}
+		
+		.contact{
+			position: absolute;
+			bottom: 0;
+			padding: 1.5vh 0px 2.5vh 2.5vw;
+			color: #808d8d;
+		}
+		.contact-title {
+			font-size: 18px;
+			float: left;
+			/*padding: 12px;*/
+			width: 10vh;
+			line-height: 10vh;
+			/*margin: auto 0;*/
+			background: #413f4a;
+			margin-right: 10px;
+			/*margin-top: 8px;*/
+			/*margin: 8px;*/
+		}
+		.contact_list{
+			overflow: hidden;
+			font-size: 16px;
+			text-align: left;
+			font-weight: bolder;
+		}
+		.contant-type{
+			display: inline-block;
+		}
+		.contact-mail img {
+			vertical-align: bottom;
+		}
+		.contact_icon {
+			width: 8.125vw;
+		}
+	</style>
+</head>
+<body class="bg">
+	<section class="main">
+		<div class="logo">
+			<img src="images/s-logo.png" alt="" class="image" >
+		</div>
+		<script type="text/javascript">
+			console.log(document.getElementsByClassName('logo')[0].offsetHeight);
+		</script>
+		<div class="introduce">
+			<!-- <div class="pic_introduce"> -->
+			<img src="images/picture.png" alt="" class="image pic_introduce">
+			<!-- </div> -->
+
+			<!-- <div class="pic_introduce"> -->
+			<img src="images/weixin_need.png" alt="" class="image pic_introduce">
+			<!-- </div> -->
+		</div>
+		<div>
+			<a href="" class="gopng_s-btn1 btn-left">进入游戏</a>
+			<a href="" class="gopng_s-btn2 btn-right">Android版下载</a>
+		</div>	
+		<div>
+			<a href="" class="gopng_s-btn2 btn-left">攻略</a>
+			<a href="" class="gopng_s-btn2 btn-right">iOS版下载</a>
+		</div>
+		<div>
+			<a href="" class="gopng_s-btn2 btn-left">活动</a>
+			<a href="" class="gopng_s-btn2 btn-right">WS版下载</a>
+		</div>
+
+	</section>
+	<ul class="contact">
+		<li class="contact-title">客服</li>
+		<li class="contact_list">
+			<div>
+				<img src="images/QQ.pnG" alt="" class="image contact_icon">
+				<p class="contant-type">
+					123456789
+					<br>
+					123456789
+				</p>
+				<img src="images/weixin.png" alt="" class="image contact_icon contact-weixin">
+				<p class="contant-type">
+					123456789
+					<br>
+					123456789
+				</p>
+			</div>
+			<div class="contact-mail">
+				<img src="images/mail-icon.png" alt="" class="image contact_icon"> 123456789@qq.com
+			</div>
+
+
+		</li>
+	</ul>
+</body>
